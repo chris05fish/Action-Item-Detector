@@ -1,5 +1,4 @@
 import tkinter as tk
-from dotenv import find_dotenv, load_dotenv
 from transformers import pipeline
 import spacy
 
@@ -26,12 +25,13 @@ def findActionItems(text):
     action_items = [item.strip() for sublist in action_items_list for item in sublist if item.strip()]
 
     # Extract action words from the original text
-    action_words = extract_action_words(text)
+    #action_words = extract_action_words(text)
 
     # Filter action items to include only those that contain action words
-    filtered_action_items = [item for item in action_items if any(action_word in item for action_word in action_words)]
+    #filtered_action_items = [item for item in action_items if any(action_word in item for action_word in action_words)]
 
-    return filtered_action_items
+    #return filtered_action_items
+    return action_items
 
 class ChecklistApp:
     def __init__(self, root, action_items):
