@@ -1,5 +1,4 @@
 import tkinter as tk
-from dotenv import find_dotenv, load_dotenv
 from transformers import pipeline
 import spacy
 
