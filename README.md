@@ -1,2 +1,15 @@
 # Action-Item-Detector
-Takes a block of text and finds action items or tasks using hugging face model. 
+Action Items Extractor is a tool that extracts action items from a given text using the Hugging Face Transformers library.
+## install
+
+```
+pip install tkinter
+```
+
+```
+pip install spacy
+```
+
+```
+pip install transformers
+```
