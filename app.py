@@ -3,8 +3,6 @@ from dotenv import find_dotenv, load_dotenv
 from transformers import pipeline
 import spacy
 
-load_dotenv(find_dotenv())
-
 # Load spaCy English model
 nlp = spacy.load("en_core_web_sm")
 
